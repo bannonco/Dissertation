@@ -56,8 +56,8 @@ def main(argv):
 			global count
 			for t in tweets:
 				text = t.text
-				langs = detect_langs(text)
-				lan = langs[0]
+				#langs = detect_langs(text)
+				#lan = langs[0]
 				count += 1
 				if '"' in text:
 					text = text.replace('"',"")
